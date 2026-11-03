@@ -54,7 +54,7 @@ where E_slab is the slab energy, N the number of atoms, E_bulk the energy per at
 **Limitations.**
 - EMT is a simple empirical model, not a quantum-mechanical (DFT) calculation, so the absolute value is approximate.
 - Only the (111) surface, a 1×1 cell and no surface reconstruction.
-- TODO: compare with a published value for Au(111) and cite the source here.
+- TODO: Not yet compared with a published value for Au(111); this is a planned next step.
 
 ---
 
@@ -81,9 +81,9 @@ E(R) = E_bulk + (ħ²π² / 2R²)(1/mₑ + 1/m_h) − 1.8 e² / (4π ε₀ ε_r 
 
 **Limitations.**
 - The Brus equation is a simplified model and, as far as I know, overestimates the band gap for very small dots, so values at small radii should be taken as approximate.
-- The parameters are typical literature values; TODO: verify them and cite the source here.
+-The parameters are commonly quoted values for CdSe and were not checked against a primary source
 - The dot is assumed to be a perfect sphere with no surface effects.
-- TODO: compare with a published CdSe size-versus-absorption curve (note that experiments often report diameter, which is 2 × radius).
+- TODO: Not yet compared with a published CdSe size curve (experiments usually report diameter, which is 2 × radius).
 
 ---
 
